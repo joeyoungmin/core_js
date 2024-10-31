@@ -15,3 +15,5 @@
 - [x] GlobalThis [바로가기](https://github.com/joeyoungmin/core_js/blob/01.core/client/chapter/core/04.GlobalThis.js)
 - [x] Legacy-var [바로가기](https://github.com/joeyoungmin/core_js/blob/01.core/client/chapter/core/05.LegacyVar.js)
 - [x] Data-type [바로가기](https://github.com/joeyoungmin/core_js/blob/01.core/client/chapter/core/06.dataTaye.js)
+- [x] 08-1.operation [바로가기](https://github.com/joeyoungmin/core_js/blob/main/client/chapter/core/08-1.operation.js)
+- [x] 08-2.operation [바로가기](https://github.com/joeyoungmin/core_js/blob/main/client/chapter/core/08-02.operation.js)
