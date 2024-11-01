@@ -17,3 +17,6 @@
 - [x] Data-type [바로가기](https://github.com/joeyoungmin/core_js/blob/01.core/client/chapter/core/06.dataTaye.js)
 - [x] 08-1.operation [바로가기](https://github.com/joeyoungmin/core_js/blob/main/client/chapter/core/08-1.operation.js)
 - [x] 08-2.operation [바로가기](https://github.com/joeyoungmin/core_js/blob/main/client/chapter/core/08-02.operation.js)
+- [x] 09-1.condition [바로가기](https://github.com/joeyoungmin/core_js/blob/01.core/client/chapter/core/09-1.condition.js)
+- [x] 09-2.condition [바로가기](https://github.com/joeyoungmin/core_js/blob/01.core/client/chapter/core/09-2.condition.js)
+- [x] 09-3.condition [바로가기](https://github.com/joeyoungmin/core_js/blob/01.core/client/chapter/core/09-3.condition.js)
