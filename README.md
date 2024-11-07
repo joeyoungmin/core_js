@@ -30,3 +30,4 @@
 - [x] 11-2.loop [바로가기](https://github.com/joeyoungmin/core_js/blob/main/client/chapter/core/11-2.function.js)
 - [x] 11-3.loop [바로가기](https://github.com/joeyoungmin/core_js/blob/main/client/chapter/core/11-3.function.js)
 - [x] 11-4.loop [바로가기](https://github.com/joeyoungmin/core_js/blob/main/client/chapter/core/11-4.function.js)
+- [x] 12-1.object [바로가기](https://github.com/joeyoungmin/core_js/blob/main/client/chapter/core/12-1.object.js)
