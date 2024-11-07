@@ -1,6 +1,10 @@
 import globals from 'globals';
 import pluginJs from '@eslint/js';
 
+const types = {
+  isObject: true,
+};
+
 export default [
   pluginJs.configs.recommended,
   {
@@ -8,6 +12,7 @@ export default [
       globals: {
         ...globals.browser,
         ...globals.node,
+        ...types,
       },
     },
     rules: {

@@ -92,4 +92,29 @@ let css;
 // 3. 증가함수와 감소함수를 만든다.
 // 4. 클릭 이벤트와 바인딩한다.
 
+function getCss(node, prop) {
+  if (typeof node === 'string') node = document.querySelector(node);
+  if (!(prop in document.body.style)) {
+    throw new ReferenceError('error');
+  }
+  return getComputedStyle(node)[prop];
+}
 
+const fontSize = getCss('.first', 'font-size');
+console.log(fontSize);
+
+function css(node, prop, value) {
+  // if (!value) {
+  //   return getCss(node, prop);
+  // } else {
+  //   setCss(node, prop, value);
+  // }
+
+  return !value ? getCss(node, prop) : setCss(node, prop, value);
+}
+
+const _css = (node, prop, value) =>
+  !value ? getCss(node, prop) : setCss(node, prop, value);
+
+css('.first', 'color');
+css('.first', 'color', 'red');
