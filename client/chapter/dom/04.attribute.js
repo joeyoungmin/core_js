@@ -25,11 +25,9 @@
 // - elementNode.removeAttribute(name) – 속성값을 지움
 // - elementNode.attributes – 열거 가능한(iterable) 속성 집합을 반환함
 
+// setAttr(){
 
-
-setAttr(){
-    
-}
+// }
 
 const about = getNode('.about');
 
@@ -53,6 +51,8 @@ about.dataset.value = 100;
 // 6. data-value의 값을 가져와 주세요
 // console.log( about.getAttribute('data-value') );
 console.log(about.dataset.value);
+
+setAttr('.about', 'data-name', '안녕');
 
 /* 비표준 속성, 프로퍼티 설정 ------------------------------------------------- */
 
