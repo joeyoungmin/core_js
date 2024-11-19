@@ -190,7 +190,8 @@ function handleInfinityScroll(){
   const documentHeight = document.documentElement.scrollHeight;
   
   if(scrollTop + viewportHeight >= documentHeight - 150){
-    console.log('event 발생!');
+    
+    getNode('.container').insertAdjacentHTML('beforeend',article);
     
   }
   
