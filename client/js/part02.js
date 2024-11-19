@@ -25,6 +25,79 @@ const data = [
 ]
 
 
+// 1. 너무 무거움 
+// 2. Pure Javascript 점점 쓰기 쉬워짐 
+// 3. Single Page Application 불가능
+// 4. Ajax (비동기통신) 만을 위해서 jQuery 엔진  => axios
+
+
+
+
+// 반복문을 사용하지 않는 이벤트 바인딩
+// 개떡같이 적어도 찰떡같이 알아듣는 
+
+// const li = $('.navigation > li');
+
+// li.click(function(e){
+//   e.preventDefault();
+  
+//   const index = $(this).index();
+  
+//   li.removeClass('is-active');
+
+//   $('.visual img').attr({
+//     'src':`./assets/part01/${data[index].src}`,
+//     'alt':data[index].alt
+//   });
+
+//   $(this).addClass('is-active');
+
+// })
+
+
+// 이벤트 위임 
+
+$('.navigation').on('click','li',function(e){
+  e.preventDefault();
+
+  const index = $(this).attr('data-index');
+
+  $('.navigation > li').removeClass('is-active');
+  $(this).addClass('is-active');
+
+  $('.visual img').attr({
+    'src':`./assets/part01/${data[index-1].src}`,
+    'alt':data[index-1].alt
+  })
+  
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -27,10 +27,14 @@ const data = [
 
 
 
-
 const navigation = getNode('.navigation');
 const img = getNode('.visual img');
+// const list = getNode('li','.navigation');
 
+
+// list.forEach((li)=>{
+//   li.addEventListener()
+// })
 // 1. navigation 클릭 이벤트 바인딩
 // 2. 태그 기본 동작 차단
 // 3. target 가져오기 
@@ -74,11 +78,15 @@ function handler(e){
   gsap.from(split.chars,{
     opacity:0,
     y:30,
-    stagger:0.05,
+    stagger:{
+      amount:0.5,
+      from:'center'
+    },
     immediateRender:false,
     ease:'back(2)'
   })
 
+  
   
   
   target.classList.add('is-active');
