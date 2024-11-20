@@ -1,38 +1,24 @@
-<<<<<<< HEAD
-function getNode(node, context = document) {
-  if (context.nodeType !== 9) context = document.querySelector(context);
-  return context.querySelector(node);
-}
-
-function getNodes(node, context = document) {
-  if (context.nodeType !== 9) context = getNode(context);
-=======
-
-
 /**
- * 
- * @param {string | Element} node 
- * @param {Document | string} context 
+ *
+ * @param {string | Element} node
+ * @param {Document | string} context
  * @returns {HTMLElement}
  */
 
-function getNode(node,context = document){
-
+function getNode(node, context = document) {
   // if(isString(context)) context = document.querySelector(context);
 
   // context가 document가 아니라면 querySelector를 돌아줘.
   // if()
-  if(context.nodeType !== 9) context = document.querySelector(context);
+  if (context.nodeType !== 9) context = document.querySelector(context);
 
   return context.querySelector(node);
 }
 
-getNode('.first')
+getNode('.first');
 
+function getNodes(node, context = document) {
+  if (context.nodeType !== 9) context = document.querySelector(context);
 
-function getNodes(node,context = document){
-
-  if(context.nodeType !== 9) context = document.querySelector(context);
->>>>>>> upstream/main
   return context.querySelectorAll(node);
 }
