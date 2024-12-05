@@ -1,0 +1,16 @@
+{
+  "name": "core_js",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev":"live-server --host=localhost --port=5500 --no-browser"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "live-server": "1.2.2"
+  }
+}
